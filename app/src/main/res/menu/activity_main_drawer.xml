@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/completed_tasks"
+            android:icon="@drawable/playlist_add_check_24"
+            android:title="Completed Tasks" />
+        <item
+            android:id="@+id/pending_tasks"
+            android:icon="@drawable/list_bulleted_24"
+            android:title="Pending Tasks" />
+
+    </group>
+</menu>
